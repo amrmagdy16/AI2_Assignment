@@ -78,6 +78,6 @@ Q1 assumed a static world. Q2 makes the **hazard dynamic**:
 
 ```
 codes/    q1_*.pddl, q2_*.pddl, outputs/ (all four plan outputs)
-Report/   report.pdf
-slide/    presentation slides
+Report/   report.pdf  report_detailed.pdf
+slide/    presentation slides (D4V4_SearchRescue_Slides.pptx)
 ```
