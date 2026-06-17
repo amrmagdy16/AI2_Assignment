@@ -1,0 +1,77 @@
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 16
+Aibr Preprocessing
+UFX:false
+|F|:36
+|X|:4
+Heuristic Problem Creation
+Aibr Preprocessing
+|A|:36
+|P|:8
+|E|:7
+Delta time heuristic model:1.0
+Delta time planning model:1.0
+Delta time search-execution model:1.0
+Delta time validation model:1
+Numeric Error for Complex Condition Activated
+H1 Setup Time (msec): 8
+h(I):30.5
+ g(n)= 1.0 h(n)=24.5
+ g(n)= 2.0 h(n)=22.5
+ g(n)= 3.0 h(n)=19.5
+ g(n)= 4.0 h(n)=17.5
+ g(n)= 5.0 h(n)=15.5
+ g(n)= 6.0 h(n)=14.5
+ g(n)= 7.0 h(n)=13.5
+ g(n)= 8.0 h(n)=12.5
+ g(n)= 9.0 h(n)=12.0
+ g(n)= 11.0 h(n)=11.0
+ g(n)= 12.0 h(n)=10.0
+ g(n)= 13.0 h(n)=9.0
+ g(n)= 14.0 h(n)=8.0
+ g(n)= 15.0 h(n)=7.0
+ g(n)= 16.0 h(n)=6.0
+ g(n)= 17.0 h(n)=5.0
+ g(n)= 18.0 h(n)=4.0
+ g(n)= 19.0 h(n)=3.0
+ g(n)= 20.0 h(n)=2.0
+ g(n)= 21.0 h(n)=1.0
+Extracting plan with execution delta: 1.0
+Problem Solved
+
+Found Plan:
+0: (move gasbot entrance hallway)
+0: (move visualbot entrance hallway)
+0: (move gasbot hallway roomA)
+0: (move thermalbot entrance hallway)
+0: (gas-sweep gasbot roomA)
+0: (move thermalbot hallway roomB)
+0: (thermal-scan thermalbot v2 roomB)
+0: (start-ventilation gasbot roomA)
+0: -----waiting---- [1.0]
+1.0: (move visualbot hallway roomA)
+1.0: (move gasbot roomA hallway)
+1.0: (move gasbot hallway roomB)
+1.0: (move thermalbot roomB hallway)
+1.0: (move thermalbot hallway roomA)
+1.0: (thermal-scan thermalbot v1 roomA)
+1.0: (gas-sweep gasbot roomB)
+1.0: (visual-identify visualbot v1 roomA)
+1.0: (move visualbot roomA hallway)
+1.0: (move visualbot hallway roomB)
+1.0: (visual-identify visualbot v2 roomB)
+1.0: (rescue gasbot v2 roomB)
+1.0: (rescue thermalbot v1 roomA)
+
+Plan-Length:22
+Elapsed Time: 1.0
+Metric (Search):22.0
+Planning Time (msec): 27
+Heuristic Time (msec): 14
+Search Time (msec): 24
+Expanded Nodes:24
+States Evaluated:136
+Number of Dead-Ends detected:0
+Number of Duplicates detected:54

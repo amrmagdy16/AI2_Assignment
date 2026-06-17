@@ -1,0 +1,58 @@
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 13
+Aibr Preprocessing
+UFX:false
+|F|:19
+|X|:1
+Heuristic Problem Creation
+Aibr Preprocessing
+|A|:23
+|P|:1
+|E|:0
+Delta time heuristic model:1.0
+Delta time planning model:1.0
+Delta time search-execution model:1.0
+Delta time validation model:1
+Numeric Error for Complex Condition Activated
+H1 Setup Time (msec): 7
+h(I):18.5
+ g(n)= 1.0 h(n)=14.5
+ g(n)= 2.0 h(n)=10.5
+ g(n)= 3.0 h(n)=8.5
+ g(n)= 4.0 h(n)=7.5
+ g(n)= 5.0 h(n)=6.5
+ g(n)= 6.0 h(n)=5.5
+ g(n)= 7.0 h(n)=4.5
+ g(n)= 8.0 h(n)=3.5
+ g(n)= 9.0 h(n)=2.5
+ g(n)= 10.0 h(n)=1.5
+ g(n)= 11.0 h(n)=1.0
+Extracting plan with execution delta: 1.0
+Problem Solved
+
+Found Plan:
+0: (move gasbot entrance hallway)
+0: (move gasbot hallway roomA)
+0: (gas-sweep gasbot roomA)
+0: (move visualbot entrance hallway)
+0: (move thermalbot entrance hallway)
+0: (move thermalbot hallway roomA)
+0: (move visualbot hallway roomA)
+0: (thermal-scan thermalbot v1 roomA)
+0: (start-ventilation gasbot roomA)
+0: (visual-identify visualbot v1 roomA)
+0: -----waiting---- [1.0]
+1.0: (rescue thermalbot v1 roomA)
+
+Plan-Length:12
+Elapsed Time: 1.0
+Metric (Search):12.0
+Planning Time (msec): 14
+Heuristic Time (msec): 7
+Search Time (msec): 12
+Expanded Nodes:13
+States Evaluated:50
+Number of Dead-Ends detected:0
+Number of Duplicates detected:29

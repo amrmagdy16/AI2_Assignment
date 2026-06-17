@@ -1,0 +1,5 @@
+(move r1 entrance rooma)
+(thermal-scan r1 v1 rooma)
+(visual-identify r1 v1 rooma)
+(gas-sweep r1 rooma)
+(rescue r1 v1 rooma)
