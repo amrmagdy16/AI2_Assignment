@@ -81,3 +81,5 @@ codes/    q1_*.pddl, q2_*.pddl, outputs/ (all four plan outputs)
 Report/   report.pdf  report_detailed.pdf
 slide/    presentation slides (D4V4_SearchRescue_Slides.pptx)
 ```
+## 7. Observation
+The submitted code and reports have been thoroughly reviewed by the teaching assistant, Omar Kashmar.
